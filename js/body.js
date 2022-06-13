@@ -13,8 +13,7 @@ const favouriteColor = prompt ('Inserisci il tuo colore preferito');
 
 console.log (userName, userLastName, favouriteColor);
 
-document.getElementById ('user-name').innerHTML = userName;
 
-document.getElementById ('user-lastname').innerHTML = userName;
 
-document.getElementById ('user-favcolor').innerHTML = userName;
+document.getElementById ('user-password').innerHTML = userName + userLastName + favouriteColor;
+
