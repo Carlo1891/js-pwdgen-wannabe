@@ -11,5 +11,11 @@ const userLastName = prompt ('Inserisci il tuo cognome');
 
 const favouriteColor = prompt ('Inserisci il tuo colore preferito');
 
-document.getElementById ('user-password').innerHTML = userName + userLastName + favouriteColor;
+// alert ('E se poi te ne penti?'); 
+
+document.getElementById ('user-password').innerHTML = userName + userLastName + favouriteColor + 22;
+
+
+
+
 
